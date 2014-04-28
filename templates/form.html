@@ -1,0 +1,8 @@
+<fieldset>
+	<form enctype = "multipart/form-data" action={{url}} method="POST">{%csrf_token%}
+	<div>
+	   {{form.as_p}}
+		<input type="submit" value="Create"/>
+	</div>
+	</form>
+</fieldset> 
