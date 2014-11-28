@@ -5,8 +5,8 @@ import logging as log
 
 
 #=========== FIll in these details ==========
-CLIENT_ID = "TkkXBqhnamgv7IptmiWRZr6aGi5fcWEnxl7PO5YN1lj7GhDkCU"
-CLIENT_SECRET = "oBdoCVNxePD6RB6UCFzSJeK083HbEE7zNhvcf2bWdYgpWD5JoG"
+CLIENT_ID = "************************************************"
+CLIENT_SECRET = "**********************************************"
 
 REDIRECT_URL = Template("""http://join.agiliq.com/oauth/authorize?client_id=$client_id&redirect_uri=$redirect_uri&response_type='code'""")
 
